@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+
+//看卡片知道你的姓氏
 int main()
 {
     for(int m = 0; m < 7;m++)

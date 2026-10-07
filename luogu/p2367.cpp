@@ -30,6 +30,7 @@ int main()
         if(y + 1 <= n) diff_score[y+1] -= z;
     }
     
+    //既然差分了就不要再暴力从diff[1] + ...+diff[i]了
     for(int i = 1; i <= n;i++)
     {
         a[i] = diff_score[i] + a[i-1];
