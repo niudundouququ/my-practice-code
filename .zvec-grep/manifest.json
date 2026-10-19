@@ -1,0 +1,25 @@
+{
+  "manifestVersion": 1,
+  "id": "4205c718-1dc8-458e-adfb-2d272dc2c4de",
+  "name": "code",
+  "path": "C:\\Users\\niudun\\Documents\\vs\\code\\.zvec-grep",
+  "rootPaths": [
+    {
+      "absolutePath": "C:\\Users\\niudun\\Documents\\vs\\code",
+      "recursive": true
+    }
+  ],
+  "indexPolicy": "enabled",
+  "embedding": {
+    "provider": "local",
+    "model": "potion-code-16m-v2",
+    "dimension": 256,
+    "metric": "cosine"
+  },
+  "indexVersion": 1,
+  "createdTime": 1791820611474,
+  "updatedTime": 1792124355019,
+  "embeddingRuntime": {
+    "device": "auto"
+  }
+}
